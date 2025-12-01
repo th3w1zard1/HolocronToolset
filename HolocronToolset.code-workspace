@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Libraries/PyKotor"
+		},
+		{
+			"path": "../../Libraries/PyKotorGL"
+		},
+		{
+			"path": "../../Libraries/Utility"
+		},
+	],
+	"launch": {
+	  "justMyCode": true,
+	  "debugStdLib": false,
+	},
+    "settings": {
+		"debug.allowBreakpointsEverywhere": true,
+		"pylint.args": [
+			"--max-line-length=275"
+		]
+    }
+}
