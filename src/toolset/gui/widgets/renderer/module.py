@@ -444,7 +444,7 @@ class ModuleRenderer(QOpenGLWidget):
         if self._modern_renderer is not None and self._use_moderngl:
             self._modern_renderer.render(self.scene)
         else:
-            self.scene.render()
+        self.scene.render()
         self._frame_stats.frame_rendered()
 
     def loop(self):
